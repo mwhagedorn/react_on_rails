@@ -62,6 +62,7 @@ module ReactOnRails
       end
 
       # Everything here is not run automatically b/c it's private
+
       private
 
       def invoke_generators # rubocop:disable Metrics/CyclomaticComplexity

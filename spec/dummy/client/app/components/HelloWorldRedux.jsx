@@ -7,7 +7,7 @@ export default class HelloWorldRedux extends React.Component {
   static propTypes = {
     actions: PropTypes.object.isRequired,
     data: PropTypes.object.isRequired,
-  }
+  };
 
   // Not necessary if we only call super, but we'll need to initialize state, etc.
   constructor(props, context) {
